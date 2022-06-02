@@ -13,5 +13,5 @@ setup(name='ml_test',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/ml_test-run'],
+      scripts=['scripts/ml_test-run', 'scripts/ml_test-computedist'],
       zip_safe=False)
